@@ -30,7 +30,7 @@ H_s^\Phi=\{X:s(X)\in L^\Phi\}.
 
 ### 1.2.1 Hardy–BMO 对偶与鞅平方函数
 
-John 和 Nirenberg 建立了 BMO 的指数尾估计，Fefferman 证明了经典 \(H^1\) 与 BMO 的对偶关系。Herz、Garsia 以及 Burkholder、Davis、Gundy 等人的工作把平方函数、极大函数和条件振荡引入鞅论，形成了离散鞅 Hardy 空间的基本工具体系。
+John 和 Nirenberg 建立了 BMO 的指数尾估计[1]，Fefferman 研究了经典 \(H^1\) 与 BMO 的对偶刻画[2]。Herz、Garsia 以及 Burkholder、Davis、Gundy 等人的工作把平方函数、极大函数和条件振荡引入鞅论，形成了离散鞅 Hardy 空间的基本工具体系[3-5]。
 
 这些结果说明端点对偶通常由未来尾部相对于当前信息的条件振荡控制。本文的幂型复合条件不覆盖 \(H^1\)，因此 \(H^1\)-BMO 理论在本文中只作为 \(K^\Psi\) 型空间的结构背景，而不是主要定理的直接特例。
 
@@ -57,7 +57,7 @@ E|UV|\le 2\|U\|_{\Phi,L}\|V\|_{\Psi,L}.
 
 只要 \(X\in H_S^\Phi\)、\(Y\in H_S^\Psi\)，该级数便在 \(L^1\) 意义下绝对收敛，不需要额外假设两侧尾平方函数的 Orlicz 范数都趋于零。
 
-已有工作已经在共轭 Young 函数双方具有有限幂等条件下建立一般 Hardy–Orlicz 对偶；Dam、Bassily、Mogyoródi、Abdel-Fattah 等人的工作还研究了 \(K^\Psi\) 型空间和 Fefferman–Garsia 型不等式。因此，本文不把一般形式的 \((H_S^\Phi)^*\simeq H_S^\Psi\) 本身宣称为全新结论，而着重整理幂型复合结构下各步骤真正需要的条件。
+已有工作已经在共轭 Young 函数双方具有有限幂等条件下建立一般 Hardy–Orlicz 对偶；Dam、Bassily、Mogyoródi、Abdel-Fattah 等人的工作还研究了 \(K^\Psi\) 型空间和 Fefferman–Garsia 型不等式[14-18]。因此，本文不把一般形式的 \((H_S^\Phi)^*\simeq H_S^\Psi\) 本身宣称为全新结论，而着重整理幂型复合结构下各步骤真正需要的条件。
 
 ### 1.2.3 \(K^\Psi\) 型空间
 
@@ -77,19 +77,19 @@ E|UV|\le 2\|U\|_{\Phi,L}\|V\|_{\Psi,L}.
 
 ## 1.3 研究问题与主要内容
 
-本文重点考察
+Hardy 型路线重点考察
 
 \[
 \Phi(t)=\Phi_1(t^r),\qquad r\ge2,
 \]
 
-以及在 \(K\) 型转换中可能使用的
+作为另一条独立路线，\(K\) 型转换考察
 
 \[
 \Psi(t)=\Psi_1(t^s),\qquad s\ge2.
 \]
 
-\(r\) 与 \(s\) 是两组独立参数，不默认相等。普通平方函数始终是二次型。为使外层增长与平方和相配合，引入
+两组条件分别用于不同定理，不预设它们对同一对共轭函数同时成立；事实上，同时成立通常具有很强限制。普通平方函数始终是二次型。为使外层增长与平方和相配合，引入
 
 \[
 A_\Phi(u)=\Phi(\sqrt u)=\Phi_1(u^{r/2}).
@@ -113,10 +113,10 @@ A_\Phi(u)=\Phi(\sqrt u)=\Phi_1(u^{r/2}).
 
 1. 通过 \(A_\Phi(u)=\Phi_1(u^{r/2})\) 显式说明幂型增长与二次平方函数的协调机制；
 2. 分别处理 \(H_S^\Phi\) 和 \(H_s^\Phi\)，避免混用普通与条件平方函数；
-3. 用向量值 Orlicz 表示和投影算子消除原证明中的循环论证；
+3. 用向量值 Orlicz 表示和投影算子修正初稿中的循环论证；
 4. 在条件平方函数情形先从有界中心化差开始，再用中心化截断扩张；
 5. 补全无穷配对绝对收敛、有限鞅稠密性和代表元唯一性；
-6. 将 \(\Delta_2\)、凸性估计、Garsia 尾量估计、两个 Doob–Orlicz 极大不等式及 Fefferman–Garsia 配对分别列为假设。
+6. 将 \(\Delta_2\)、凸性估计、Garsia 尾量估计、\(L^{\Psi_1}\) 上的 Doob–Orlicz 极大不等式及 Fefferman–Garsia 配对分别列为假设。
 
 ## 1.5 研究范围与局限
 

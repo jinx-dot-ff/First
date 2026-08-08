@@ -213,8 +213,10 @@ E_n|Y-Y_{n-1}|^2\le E_n(\gamma^2),\ n\ge1
 
 \[
 (P_{\Phi,r}):\qquad
-\Phi(t)=\Phi_1(t^r),\quad r\ge2,\quad \Phi_1\in\Delta_2.
+\Phi(t)=\Phi_1(t^r),\quad r\ge2,
 \]
+
+其中 \(\Phi_1\) 为满足 \(\Delta_2\) 的 Young 函数。
 
 定义
 
@@ -229,11 +231,11 @@ A_\Phi(u)=\Phi(\sqrt u)=\Phi_1(u^{r/2}).
 \Psi(t)=\Psi_1(t^s),\quad s\ge2.
 \]
 
-\(r,s\) 不默认相等。
+其中 \(\Psi_1\) 为 Young 函数。\((P_{\Phi,r})\) 与 \((P_{\Psi,s})\) 分别用于两条替代性路线，不默认对同一对共轭函数同时成立。
 
 ### 2.7.2 条件期望凸性假设
 
-假设 \((C_\Phi)\)：对所有有限非负序列 \((Z_n)\)，存在 \(C_A\) 使
+在 \((P_{\Phi,r})\) 下，\(A_\Phi\) 是 Young 函数。进一步假设 \((C_\Phi)\)：对所有有限非负序列 \((Z_n)\)，存在 \(C_A\) 使
 
 \[
 \left\|\sum_nE_nZ_n\right\|_{A_\Phi}
@@ -248,15 +250,9 @@ A_\Phi(u)=\Phi(\sqrt u)=\Phi_1(u^{r/2}).
 \|W^2\|_{A_\Phi}=\|W\|_\Phi^2
 \]
 
-可推出坐标条件期望在 \(L^\Phi(\ell_2)\) 上有界。该不等式对应 Mogyoródi 型凸性结果；最终稿须核对原始定理编号和完整条件。
+可推出坐标条件期望在 \(L^\Phi(\ell_2)\) 上有界。该不等式对应 Mogyoródi 型凸性结果[10-12]；最终稿须核对原始定理编号和完整条件。
 
 ### 2.7.3 极大及尾量假设
-
-\((M_\Psi)\) 表示
-
-\[
-\left\|\sup_nE_nZ\right\|_\Psi\le C_\Psi\|Z\|_\Psi,\qquad Z\ge0.
-\]
 
 \((M_{\Psi_1})\) 表示
 
@@ -288,7 +284,7 @@ E_n|Y-Y_{n-1}|^2\le E_n(\gamma^2),\qquad
 \le C_{FG}\|X\|_{H_S^\Phi}\|Y\|_{K^\Psi}.
 \]
 
-\((G_\Psi)\)、\((M_\Psi)\)、\((M_{\Psi_1})\) 和 \((FG_\Phi)\) 均为待按原始文献核查的外部假设。
+\((G_\Psi)\)、\((M_{\Psi_1})\) 和 \((FG_\Phi)\) 分别对应 Garsia 型尾量理论、Orlicz 极大不等式及 Fefferman–Garsia 型配对[4,12,13,17]，但仍须按原始文献核查具体版本。
 
 ## 2.8 本章小结
 

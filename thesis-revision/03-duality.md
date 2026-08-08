@@ -68,7 +68,7 @@ E\sum_n|\theta_n\eta_n|
 Q=P-P^-.
 \]
 
-在 \((C_\Phi)\) 下，条件 Jensen 不等式给出
+在 \((P_{\Phi,r})+(C_\Phi)\) 下，条件 Jensen 不等式给出
 
 \[
 \|P\theta\|_{\mathcal X_\Phi}
@@ -98,7 +98,7 @@ Q=P-P^-.
 
 ### 引理3.2
 
-在 \((D_\Phi)+(C_\Phi)\) 下，每个 \(\Lambda\in(\mathcal A_S^\Phi)^*\) 存在唯一的适应序列 \(\sigma\in\mathcal A_S^\Psi\)，使
+在 \((D_\Phi)+(P_{\Phi,r})+(C_\Phi)\) 下，每个 \(\Lambda\in(\mathcal A_S^\Phi)^*\) 存在唯一的适应序列 \(\sigma\in\mathcal A_S^\Psi\)，使
 
 \[
 \Lambda(\theta)=E\sum_n\theta_n\sigma_n,
@@ -135,7 +135,7 @@ E_{n-1}\sigma_n=E_{n-1}\eta_n,
 
 ### 定理3.3
 
-设 \((D_\Phi)+(C_\Phi)\) 成立，则
+设 \((D_\Phi)+(P_{\Phi,r})+(C_\Phi)\) 成立，则
 
 \[
 (H_S^\Phi)^*\simeq H_S^\Psi.
@@ -218,7 +218,7 @@ A_\Phi(u)=\Phi(\sqrt u).
 
 ### 引理3.4
 
-设 \((D_\Phi)+(C_\Phi)\) 成立。若 \(\Lambda\in(\mathcal D_s^\Phi)^*\)，则存在唯一 \(\sigma\in\mathcal D_s^\Psi\)，使
+设 \((D_\Phi)+(P_{\Phi,r})+(C_\Phi)\) 成立。若 \(\Lambda\in(\mathcal D_s^\Phi)^*\)，则存在唯一 \(\sigma\in\mathcal D_s^\Psi\)，使
 
 \[
 \Lambda(\theta)=\sum_nE(\theta_n\sigma_n),
@@ -357,7 +357,7 @@ E(dX_n\sigma_n)=E(dX_n\,dY_n),
 
 从而 \(F(X)=E(X_NY_N)\)。\((D_\Phi)\) 保证停止鞅 \(X^{[N]}\to X\) 于 \(H_S^\Phi\)，故表示延拓到一般 \(X\)。
 
-唯一性使用定理3.3中的单层测试。证毕。
+唯一性独立地重复单层有界鞅差测试：若两个终端代表给出同一泛函，则其每一层鞅差与所有有界中心化 \(\mathcal F_m\)-可测随机变量的配对均为零，从而逐层相等。证毕。
 
 若进一步有 \((D_\Psi)\)，令
 
@@ -489,7 +489,7 @@ H_S^\Psi=K^\Psi
 本章建立了两条分层证明链：
 
 \[
-(D_\Phi)+(C_\Phi)
+(D_\Phi)+(P_{\Phi,r})+(C_\Phi)
 \Longrightarrow
 (H_S^\Phi)^*\simeq H_S^\Psi,\quad
 (H_s^\Phi)^*\simeq H_s^\Psi,

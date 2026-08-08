@@ -38,7 +38,7 @@ s(X)=\left(\sum_{n\ge1}E_{n-1}|dX_n|^2\right)^{1/2}
 (H_s^\Phi)^*\simeq H_s^\Psi.
 \]
 
-在条件尾量表示方面，本文先通过 Garsia 型条件尾量假设构造 \(\widetilde K^\Psi\) 代表。在进一步假设
+作为另一条独立路线，本文从对偶侧的幂型结构出发研究条件尾量表示。先通过 Garsia 型条件尾量假设构造 \(\widetilde K^\Psi\) 代表；在另行假设
 
 \[
 \Psi(t)=\Psi_1(t^s),\qquad s\ge2,
@@ -50,7 +50,7 @@ s(X)=\left(\sum_{n\ge1}E_{n-1}|dX_n|^2\right)^{1/2}
 (H_S^\Phi)^*\simeq K^\Psi.
 \]
 
-本文明确区分 Hardy 型对偶与 \(K\) 型对偶所需的不同假设，并补充有限鞅稠密性、Orlicz 范数序连续性、无穷配对绝对收敛、中心化截断及代表元唯一性等环节。本文的幂型复合条件主要适用于至少具有二次下增长的 Young 函数，不直接覆盖 \(H^1\) 端点和 \(1<p<2\) 的经典 \(H^p\) 空间。
+本文明确区分 Hardy 型对偶与 \(K\) 型对偶所需的两组替代性假设，不预设 \(\Phi\) 侧和 \(\Psi\) 侧的高阶复合条件同时成立。本文还补充有限鞅稠密性、Orlicz 范数序连续性、无穷配对绝对收敛、中心化截断及代表元唯一性等环节。幂型复合条件主要适用于至少具有二次下增长的 Young 函数，不直接覆盖 \(H^1\) 端点和 \(1<p<2\) 的经典 \(H^p\) 空间。
 
 **关键词：** 鞅 Hardy–Orlicz 空间；Young 函数；对偶空间；平方函数；条件平方函数；\(K^\Psi\) 空间
 
@@ -88,7 +88,7 @@ The conditional-square-function counterpart is also considered, and under the co
 (H_s^\Phi)^*\simeq H_s^\Psi.
 \]
 
-For conditional-tail representations, a representing element in \(\widetilde K^\Psi\) is first constructed under a Garsia-type tail assumption. If
+As a separate route based on a power-composition condition on the dual side, a representing element in \(\widetilde K^\Psi\) is first constructed under a Garsia-type tail assumption. If
 
 \[
 \Psi(t)=\Psi_1(t^s),\qquad s\ge2,
@@ -100,7 +100,7 @@ and the Doob maximal operator is bounded on \(L^{\Psi_1}\), second-order conditi
 (H_S^\Phi)^*\simeq K^\Psi.
 \]
 
-The assumptions for Hardy-type and \(K\)-type dualities are stated separately. Particular attention is paid to finite-martingale density, order continuity, absolute convergence of the pairing, centered truncations, and uniqueness of representing elements. The power-composition framework considered here applies mainly to Young functions with at least quadratic lower growth and does not directly include \(H^1\) or the classical range \(1<p<2\).
+The assumptions for Hardy-type and \(K\)-type dualities are alternative sets and are not presumed to hold simultaneously. Particular attention is paid to finite-martingale density, order continuity, absolute convergence of the pairing, centered truncations, and uniqueness of representing elements. The power-composition framework considered here applies mainly to Young functions with at least quadratic lower growth and does not directly include \(H^1\) or the classical range \(1<p<2\).
 
 **Keywords:** martingale Hardy–Orlicz space; Young function; dual space; square function; conditional square function; \(K^\Psi\) space
 

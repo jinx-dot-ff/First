@@ -24,7 +24,7 @@
 12. Mogyoródi J, Móri T F. Necessary and sufficient condition for the maximal inequality of convex Young functions. *Acta Scientiarum Mathematicarum (Szeged)*, 1983, 45: 325–332.
 13. Ishak S, Mogyoródi J. On the generalization of the Fefferman–Garsia inequality. In: *Stochastic Differential Systems*, Lecture Notes in Control and Information Sciences. Berlin: Springer, 1981: 85–97.
 
-> 待核查：第3章的 \((C_\Phi)\)、\((G_\Psi)\)、\((M_\Psi)\)、\((M_{\Psi_1})\) 和 \((FG_\Phi)\) 必须分别对应上述文献中的准确定理；不能仅凭题名推定适用。
+> 待核查：第2章定义、并在第3章使用的 \((C_\Phi)\)、\((G_\Psi)\)、\((M_{\Psi_1})\) 和 \((FG_\Phi)\) 必须分别对应上述文献中的准确定理；不能仅凭题名推定适用。
 
 ## 四、Hardy–Orlicz 与 \(K^\Psi\) 对偶
 
@@ -50,6 +50,5 @@
 - 核查所有作者姓名的重音符号和期刊正式缩写；
 - 用正式出版条目替换仅列 arXiv 的文献；
 - 删除正文未引用条目；
-- 更新摘要中的参考文献数量；
 - 不再用 Krasnoselskii–Rutickii 的 Orlicz 专著支持 Fefferman–Garsia 鞅不等式；
 - 原稿文献“Linear functionals on Hardy spaces”在未取得原文前不作为定理3.1的依据。

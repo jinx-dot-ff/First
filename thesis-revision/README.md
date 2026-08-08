@@ -54,3 +54,20 @@
 - [研究成果与致谢](06-achievements-acknowledgments.md)
 
 > 说明：本稿是一份数学内容修订底稿，不替代学校 Word/LaTeX 模板。标记为“外部假设”的结果须在最终送审前依据原始论文逐条核对定理编号、指标范围和 \(K\) 空间定义。
+
+## Word 版本
+
+已生成按《中南大学研究生学位论文撰写规范（2022）》设置的 Word 文件：
+
+`幂型复合条件下鞅Hardy-Orlicz空间对偶性研究_修订稿.docx`
+
+主要版式包括 A4 页面、146 mm 正文宽度、正文小四号宋体/Times New Roman、固定 20 磅行距、分级标题、原生 Word 数学公式、前置部分罗马页码、正文阿拉伯页码、正文页眉和自动目录域。
+
+重新生成：
+
+```bash
+python3 -m pip install -r requirements-docx.txt
+python3 tools/build_thesis_docx.py
+```
+
+首次用 Word 打开后，请选择目录并执行“更新整个目录”，同时核对学校提供的正式封面附件、UDC、中图分类号、答辩日期和签名栏。

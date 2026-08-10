@@ -1,0 +1,4 @@
+{
+  "name": "Thesis DOCX build",
+  "install": "python3 -m pip install --break-system-packages --user -r requirements-docx.txt"
+}
